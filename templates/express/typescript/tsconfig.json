@@ -5,6 +5,7 @@
         "moduleResolution": "Node",
         "strict": true,
         "skipLibCheck": true,
-        "types": ["node"]
+        "types": ["node"],
+        "allowSyntheticDefaultImports": true
     }
 }

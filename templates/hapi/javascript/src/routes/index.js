@@ -1,18 +1,18 @@
 const routes = [
   {
-    method: 'GET',
-    path: '/',
+    method: "GET",
+    path: "/",
     handler: (request, h) => {
-      return { message: 'Welcome to the API' }
-    }
+      return { message: "Welcome to the API" };
+    },
   },
   {
-    method: 'GET',
-    path: '/health',
+    method: "GET",
+    path: "/health",
     handler: (request, h) => {
-      return { status: 'OK' }
-    }
-  }
-]
+      return { status: "OK" };
+    },
+  },
+];
 
-module.exports = routes
+module.exports = routes;

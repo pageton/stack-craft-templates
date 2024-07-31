@@ -1,13 +1,13 @@
-import Router from '@koa/router'
+import Router from "@koa/router";
 
-const router = new Router()
+const router = new Router();
 
-router.get('/', (ctx) => {
-  ctx.body = { message: 'Welcome to the API' }
-})
+router.get("/", (ctx) => {
+  ctx.body = { message: "Welcome to the API" };
+});
 
-router.get('/health', (ctx) => {
-  ctx.body = { status: 'OK' }
-})
+router.get("/health", (ctx) => {
+  ctx.body = { status: "OK" };
+});
 
-export default router
+export default router;

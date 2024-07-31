@@ -1,0 +1,11 @@
+{
+  "name": "stack-craft-templates",
+  "version": "1.0.0",
+  "description": "This repository contains templates for various backend frameworks and Prisma integration. These templates are designed to help you quickly set up a new project with your preferred framework and configuration.",
+  "scripts": {
+    "format": "prettier --write 'templates/**/*.{ts,js}'"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

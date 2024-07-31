@@ -1,20 +1,20 @@
-import { ServerRoute } from '@hapi/hapi'
+import { ServerRoute } from "@hapi/hapi";
 
 const routes: ServerRoute[] = [
   {
-    method: 'GET',
-    path: '/',
+    method: "GET",
+    path: "/",
     handler: (request, h) => {
-      return { message: 'Welcome to the API' }
-    }
+      return { message: "Welcome to the API" };
+    },
   },
   {
-    method: 'GET',
-    path: '/health',
+    method: "GET",
+    path: "/health",
     handler: (request, h) => {
-      return { status: 'OK' }
-    }
-  }
-]
+      return { status: "OK" };
+    },
+  },
+];
 
-export default routes
+export default routes;
