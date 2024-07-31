@@ -1,0 +1,17 @@
+{
+  "name": "koa-javascript-project",
+  "version": "1.0.0",
+  "description": "Koa with JavaScript project",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --watch src/app.js"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.15.3",
+    "koa-logger": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

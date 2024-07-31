@@ -1,0 +1,15 @@
+{
+  "name": "hapi-javascript-project",
+  "version": "1.0.0",
+  "description": "Hapi with JavaScript project",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --watch src/app.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

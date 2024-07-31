@@ -1,0 +1,15 @@
+{
+  "name": "fastify-javascript-project",
+  "version": "1.0.0",
+  "description": "Fastify with JavaScript project",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --watch src/app.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

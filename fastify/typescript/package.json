@@ -1,0 +1,17 @@
+{
+  "name": "fastify-typescript-project",
+  "version": "1.0.0",
+  "description": "Fastify with TypeScript project",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "dev": "tsx watch src/app.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.42",
+    "tsx": "^4.7.1",
+    "typescript": "^5.5.4"
+  }
+}
